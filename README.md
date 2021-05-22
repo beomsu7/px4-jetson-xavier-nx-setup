@@ -43,3 +43,21 @@
 </details>
 
 <br>
+
+### ● xavier nx setup - Realsense T265, D435i setup
+
+<details><summary>[click to see]</summary>
+  
+  - Set up realsense sdk and ros packages and I followed [this git](https://github.com/zinuok/Xavier_NX)
+  ~~~shell
+  $ cd
+  $ git clone https://github.com/IntelRealSense/librealsense.git
+  $ cd librealsense
+  $ sudo apt-get update && sudo apt-get upgrade
+  $ sudo apt-get install -y git libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
+
+
+~~~
+</details>
+
+<br>
