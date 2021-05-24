@@ -23,6 +23,8 @@
 <details><summary>[click to see]</summary>
   
   - Set up the ROS melodic and I followed [this site](https://junk-research-note.tistory.com/7)
+  
+  ~~~shell
 $ git clone https://github.com/jetsonhacks/installROSXavier.git
 $ cd installROSXavier
 $ ./installROS.sh -p ros-melodic-desktop
@@ -34,13 +36,11 @@ $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ~~~
 </details>
 
-<br>
-
 ### ● xavier nx setup - mavros setup
 
 <details><summary>[click to see]</summary>
   
-  - Set up realsense sdk and ros packages and I followed [this git](https://github.com/zinuok/Xavier_NX)
+  - Set up realsense sdk and ros packages and I followed [this site](https://github.com/zinuok/Xavier_NX), which is based on jetson hacks
   ~~~shell
 $ sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
 $ cd && wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
@@ -50,6 +50,4 @@ $ sudo bash ./install_geographiclib_datasets.sh
 
 <br>
 
-sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
-cd && wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
-sudo bash ./install_geographiclib_datasets.sh   
+
