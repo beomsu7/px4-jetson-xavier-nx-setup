@@ -29,21 +29,27 @@ $ ./installROS.sh -p ros-melodic-desktop
 $ rosdep init
 $ rosdep update
 $ ./setupCatkinWorkspace.sh
+$ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+
 ~~~
 </details>
 
 <br>
 
-### ● xavier nx setup - Realsense T265, D435i setup
+### ● xavier nx setup - mavros setup
 
 <details><summary>[click to see]</summary>
   
   - Set up realsense sdk and ros packages and I followed [this git](https://github.com/zinuok/Xavier_NX)
   ~~~shell
-
-
-
+$ sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+$ cd && wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+$ sudo bash ./install_geographiclib_datasets.sh   
 ~~~
 </details>
 
 <br>
+
+sudo apt-get install ros-melodic-mavros ros-melodic-mavros-extras
+cd && wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+sudo bash ./install_geographiclib_datasets.sh   
