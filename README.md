@@ -51,3 +51,6 @@ $ sudo bash ./install_geographiclib_datasets.sh
 <br>
 
 
+https://github.com/IntelRealSense/realsense-ros
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+reboot
