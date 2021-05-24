@@ -49,7 +49,9 @@ $ sudo bash ./install_geographiclib_datasets.sh
   
   - Set up realsense ros packages and I followed [this site](https://github.com/IntelRealSense/realsense-ros)
   ~~~shell
-not sure how to do this part
+not sure how to do this part   
+  in my case now the rgb camera is not working in ROS   
+  
 ~~~
 </details>
 
@@ -66,3 +68,4 @@ $ cd ~/catkin_ws/src && git clone https://github.com/beomsu7/VIO
 </details>
 
 
+connect the fmu to xavier nx on xavier nx's gpio pin (3,5,7,9)
