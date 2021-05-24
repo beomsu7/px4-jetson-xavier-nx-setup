@@ -43,22 +43,26 @@ $ sudo bash ./install_geographiclib_datasets.sh
 ~~~
 </details>
 
-### ● xavier nx setup - realsense camera and VIO
+### ● xavier nx setup - realsense camera
 
 <details><summary>[click to see]</summary>
   
   - Set up realsense ros packages and I followed [this site](https://github.com/IntelRealSense/realsense-ros)
   ~~~shell
-$ sudo apt-get install ros-melodic-realsense2-camera
-  $ sudo gedit /etc/udev/rules.d/99-realsense-libusb.rules #paste [this one](https://github.com/IntelRealSense/librealsense/blob/master/config/99-realsense-libusb.rules)
-  $ reboot
+not sure how to do this part
 ~~~
 </details>
 
 
-https://github.com/IntelRealSense/realsense-ros
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
-reboot
+### ● xavier nx setup - VIO
+
+<details><summary>[click to see]</summary>
+  
+  
+  ~~~shell
+$ cd ~/catkin_ws/src && git clone https://github.com/beomsu7/VIO
+  $ cd ~/catkin_ws && catkin_make && source devel/setup.bash
+~~~
+</details>
 
 
-sudo apt-get install ros-melodic-pcl-ros
