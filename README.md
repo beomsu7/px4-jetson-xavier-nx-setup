@@ -43,7 +43,7 @@ $ sudo bash ./install_geographiclib_datasets.sh
 ~~~
 </details>
 
-### ● xavier nx setup - realsense camera 
+### ● xavier nx setup - realsense camera and VIO
 
 <details><summary>[click to see]</summary>
   
@@ -59,3 +59,6 @@ $ sudo apt-get install ros-melodic-realsense2-camera
 https://github.com/IntelRealSense/realsense-ros
 sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
 reboot
+
+
+sudo apt-get install ros-melodic-pcl-ros
